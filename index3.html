@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COURSE REGISTRATION FORM</title>
+          <link rel="stylesheet"  type="text/css" href="style1.css">
+    </head>
+    <body>
+      
+        <h1>Course Registration Form</h1>
+        <form action="https://tai.thetapacademy.com/">
+            <fieldset>
+                <legend>Personal details</legend>
+            <table>
+                <tr>
+                    <td><label for="">First Name</label></td>
+                    <td><input type="text" placeholder="Rashi" required>
+                    <p>Enter your first name</p></td>
+                </tr>
+                <tr>
+                    <td><label for="">Surname</label></td>
+                    <td><input type="text" placeholder="Ramesh" optional>
+                    <p>Enter your surname</p ></td>
+                </tr>
+                <tr>
+                    <td><label for="">Mobile Number</label></td>
+                    <td><input type="tel" placeholder="8965472356" required>
+                    <p>Enter your mobile number</p></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="email" placeholder="rashi@gmail.com" required>
+                    <p>Enter your email address</p>
+                <img src="check.png" id="correct" width="15px" height="15px">
+                <img src="shape.png" id="wrong" width="15px" height="15px">
+                </td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password" placeholder="min 5 characters" required>
+                    <p>Enter your password</p></td>
+                </tr>
+                <tr>
+                    <td><label for="">Confirm Password</label></td>
+                    <td><input type="password" placeholder="min 5 characters" required>
+                    <p>Confirm your password</p></td>
+                </tr>
+                <tr>
+                    <td><label for="">DOB</label></td>
+                    <td><input type="date" required>
+                    <p>Enter your date of birth</p></td>
+                </tr>
+                <tr>
+                    <td><label for="">AGE</label></td>
+                    <td><input type="number" min="18" max="100" required>
+                    <p>Enter your age</p>
+                
+                <img src="check.png" id="correct" width="15px" height="15px">
+                <img src="shape.png" id="wrong" width="15px" height="15px">
+                </td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td><input type="radio" name="Gender" value="M"><label>Male</label>
+            <input type="radio" name="Gender" value="F"><label>Female</label>
+            <input type="radio" name="Gender" value="O"><label>Other</label><br></td>
+                </tr>
+                <tr>
+                    <td><label for="">Select Country</label></td>
+                    <td><select>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select><br></td>
+                </tr>
+                <tr>
+                    <td><label for="">Upload Resume</label></td>
+                    <td><input type="file"><br></td>
+                </tr>
+                <tr>
+                    <td><input type="reset"><br><br></td>
+                    
+                </tr>
+                </table>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Course details</legend>
+                    
+                <tr>
+                    <td><label for="">Select Course</label><br></td>
+                    <td><select>
+                <option value="PF">PFSD</option>
+                <option value="JF">JFSD</option>
+                <option value="MS">MERN Stack</option>
+                <option value="DS">Data Science</option>
+            </select><br></td>
+                </tr>
+                <tr>
+                    <td><label for="">Delivery Mode</label></td>
+                    <td><input type="checkbox">ONLINE
+            <input type="checkbox">OFFLINE<br></td>
+                </tr>
+                <tr>
+                    <td>
+                    <label for="">Comments</label><br>
+                    <textarea cols="30" rows="5"></textarea>
+                    </td>
+                </tr><br>
+                <tr>
+                    <td>
+                    <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            
+            </table>
+            </fieldset>
+
+
+        </form>
+
+    </body>
+</html>
