@@ -81,14 +81,15 @@ input[type="Email"]:focus:invalid~img#wrong{
     display:inline;
 }
 
-input[name="age"]~img{
+input[type="number"]~img{
     display:none;
 }
 
-input[name="age"]:focus:valid~img#correct{
+input[type="number"]:focus:valid~img#correct{
     display:inline;
 }
 
-input[name="age"]:focus:invalid~img#wrong{
+input[type="number"]:focus:invalid~img#wrong{
     display:inline;
 }
+
